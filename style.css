@@ -1,0 +1,400 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.home {
+    background: url(images/drew-coffman-1872.jpg)no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.head {
+    overflow: hidden;
+    padding: 0px 110px;
+}
+
+.head .logo {
+
+    width: 220px;
+    float: left;
+    color: white;
+    padding-top: 10px;
+}
+
+.head .logo img {
+    width: 100%;
+}
+
+.head .links {
+
+    float: right;
+    padding-top: 21px;
+
+
+}
+
+.head .links a {
+
+    font-size: 20px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #fff;
+
+
+
+
+}
+
+.head .links a:hover {
+    color: #E0C690;
+}
+
+.text {
+
+    text-align: center;
+    padding-top: 220px;
+    color: #fff;
+}
+
+.text span {
+    display: block;
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+
+.text h1 {
+    font-size: 68px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-family: 'Alegreya', serif;
+}
+
+.text p {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.text button {
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+
+
+}
+
+.text .b1 {
+    background-color: #E0C690;
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+    
+
+    transition: 0.3s;
+
+
+}
+
+.text .b1:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.text .b2 {
+    background-color: transparent;
+    color: #fff;
+    border: white solid 2px;
+    margin-left: 10px;
+}
+
+.text .b2:hover {
+    background-color: white;
+    color: #000;
+}
+
+
+.about{
+
+margin-top: 60px;
+}
+
+.about .about-parent{
+
+overflow: hidden;
+padding: 40px  70px;
+}
+
+.about .about-parent .about-img{
+
+    width: 47%;
+    float: left;
+    margin-right: 3%;
+   
+}
+.about .about-parent .about-img img{
+    width: 100%;
+}
+
+.about .about-parent .about-text {
+
+    width: 50%;
+    float: left;
+    padding-top: 40px;
+    color: #686868;
+  
+}
+
+.about .about-parent .about-text h2 {
+
+   padding-bottom: 40px;
+  
+   
+}
+
+.about .about-parent .about-text p {
+
+    padding-bottom: 40px;
+    line-height: 1.8;
+}
+
+.about .about-parent .about-text h3 i{
+    color: burlywood;
+    margin-right: 13px;
+    margin-bottom: 14px;
+    padding: 11px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+
+
+.our-location{
+    margin-top: 100px;
+  
+}
+
+
+.our-location .our-parent{
+
+    overflow: hidden;
+    padding: 40px  70px;  
+    background-color: #f8f8f8;
+}
+
+.our-location .our-parent .our-text{
+width: 46%;
+float: left;
+padding-top: 150px;
+padding-right: 4%;
+
+}
+.our-location .our-parent .our-text h2{
+    padding-bottom: 35px;
+    color: #303030;
+    font-size: 35px;
+}
+
+.our-location .our-parent .our-text p{
+line-height: 1.7;
+font-size: 17px;
+color: #686868;
+}
+.our-location .our-parent .our-image{
+    width: 50%;
+    float: left;
+}
+
+.our-location .our-parent .our-image img{
+width: 100%;
+}
+
+.our-backing{
+    padding-top: 80px;
+}
+
+.our-backing .title{
+text-align: center;
+}
+
+.our-backing .title h2{
+    padding-top: 35px;
+    color: #303030;
+}
+
+
+.our-backing .title p{
+    padding-top: 20px;
+    line-height: 1.7;
+    font-size: 17px;
+    color: #686868;
+   
+    
+}
+
+.our-backing .parent-backing{
+    overflow: hidden;
+    padding: 40px  70px;  
+}
+
+.our-backing .child{
+    width: 30%;
+    float: left;
+    margin: 15px 20px;
+}
+
+.our-backing .child img{
+width: 100%;
+}
+
+
+
+
+
+
+.map-section{
+    margin-top: 70px;
+}
+
+.map-section .map-parent{
+    overflow: hidden;
+    padding: 40px  70px;  
+    background-color: #f8f8f8;
+}
+
+.map-section .map-parent .text-map{
+    width: 46%;
+    float: left;
+    color: #686868;
+   
+    padding-right: 4%;
+
+}
+
+.map-section .map-parent .text-map h2{
+    padding-bottom: 10px;
+
+}
+
+.map-section .map-parent .text-map p{
+    line-height: 1.7;
+font-size: 17px;
+
+}
+
+.map-section .map-parent .text-map h3{
+    color: #686868; 
+    font-size: 18px;
+}
+
+.map-section .map-parent .text-map h3 i{
+   padding: 13px;
+   margin-right: 10px;
+    color: white;
+    background-color: burlywood;
+   
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    text-align: center;
+}
+.map-section .map-parent .map-image{
+    width: 50%;
+    float: left;
+}
+
+
+
+.footer{
+margin-top: 60px;
+}
+
+.footer .parent-footer{
+overflow: hidden;
+}
+
+.footer .parent-footer .child{
+    width: 25%;
+    float: left;
+}
+
+
+.footer .child ul  li{
+list-style: none;
+padding: 8px 0;
+color: #969696;
+}
+.footer .child ul  li i{
+    padding-right: 11px;
+}
+
+
+.footer{
+
+    margin-top: 60px;
+}
+
+
+.footer .parent-footer{
+
+padding: 20px 95px;
+overflow: hidden;
+background-color:#403D38 ;
+}
+
+.footer .parent-footer .child h3{
+    color: #fff;
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+
+.footer .parent-footer .child p{
+color: #969696;
+line-height: 1.7;
+}
+
+
+
+.footer .parent-footer .child .child-p4{
+background-image: url(images/contact-details-map.png);
+
+
+}
+
+.footer .child hr{
+    width: 80%;
+    color:#969696 ;
+}
+
+.more-footer{
+    background-color: #4F3932;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.more-footer img{
+width: 25%;
+padding-bottom: 10px;
+
+}
+
+.more-footer h5{
+    color: #969696;
+    font-size: 16px;
+    padding-bottom: 10px;
+
+}
+
+.more-footer i{
+    color:969696 ;
+    margin-bottom: 14px;
+    padding: 11px;
+    border-radius: 50%;
+    font-size: 28px; 
+}
